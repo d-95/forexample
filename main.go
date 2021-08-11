@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+var z = 34
 func main() {
 	x := 3453 + 3435
 	fmt.Println(x)
@@ -10,4 +11,7 @@ func main() {
 	fmt.Println(y)
 	x = 1
 	fmt.Println(x)
+	fmt.Println("and now we print the variable z!")
+	fmt.Println(z)
+	fmt.Print("!!!!!")
 }
