@@ -1,9 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"go/types"
+)
 
 var z = 34
 var a bool
+var b types.Slice
+
 func main() {
 	x := 3453 + 3435
 	fmt.Println(x)
@@ -15,6 +20,7 @@ func main() {
 	fmt.Println("and now we print the variable z!")
 	fmt.Print(z)
 	fmt.Println("!!!!!", "or")
-	fmt.Println(z,"!!!!1")
+	fmt.Println(z, "!!!!1")
 	fmt.Println(a)
+	fmt.Println(b)
 }
